@@ -40,9 +40,3 @@ for i in range(epochs):
   w3.grad.data.zero_()
 
 print(output)
-
-
-
-
-
-
