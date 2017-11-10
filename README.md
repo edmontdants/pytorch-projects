@@ -1,6 +1,4 @@
 # See blog:
 https://twopointseven.github.io
 
-Authors:
-Tejpal Virdi ([Github](github.com/tejpalv))
-John Guibas ([Github](github.com/johnguibas))
+The authors are [Tejpal Virdi](http://github.com/tejpalv) and [John Guibas](http://github.com/johnguibas).
