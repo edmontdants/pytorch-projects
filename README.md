@@ -1,5 +1,4 @@
-# the-basics
-a simple 2 layer neural network in pytorch
+# See blog:
+https://twopointseven.github.io
 
-# See blog post:
-https://twopointseven.github.io/post4/
+The authors are [Tejpal Virdi](http://github.com/tejpalv) and [John Guibas](http://github.com/johnguibas).
