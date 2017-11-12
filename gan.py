@@ -42,7 +42,7 @@ class Discriminator(nn.Module):
 class Generator(nn.Module):
 	def __init__(self):
 		super(Generator, self).__init__()
-		self.disc = nn.Sequential(
+		self.gen = nn.Sequential(
 			nn.Linear(32, 512),
 			nn.LeakyReLU(0.1),
 			nn.Linear(512, 512),
@@ -51,7 +51,7 @@ class Generator(nn.Module):
 			nn.Tanh())
 
 	def forward(self, x):
-		output = self.disc(x)
+		output = self.gen(x)
 		return output
 
 d = Discriminator()
